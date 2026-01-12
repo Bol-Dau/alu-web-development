@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    color: red;
+}
+article{
+    flex: 2;
+    overflow: auto;
+    border: solid 3px;
+    box-shadow: 3px 3px 5px;
+}
+
+aside{
+    flex: 1;
+    overflow: auto;
+}
+
